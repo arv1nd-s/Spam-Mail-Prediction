@@ -1,8 +1,8 @@
 # Spam Mail Prediction
-A "Spam Mail Prediction" simple project created to apply what I've learned till now.
+A 'Spam Mail Prediction' simple project created to apply what I've learned till now.
 It uses Logistic Regression Model to predict whether the given mail text is spam or not.
 
-## Demo of Spam-Mail-Prediction
+## Illustration
 ![Demo of Spam-Mail-Prediction](https://github.com/arv1nd-s/Spam-Mail-Prediction/blob/main/Illustration.gif)
 
 ## Languages, Modules/Libraries
@@ -15,11 +15,13 @@ The following modules and libararies are used in this project:
 - Scikit-learn
 
 ## Dataset
-information about dataset here
+'mail_data.csv' contains the required data, where it have two columns: 'Category' and 'Message' respectively.
+- 'Category' specifies whether this sample's mail is spam or ham(not a spam message).
+- 'Message' contains actual message/text.
 
 ## Launch
 To run it clone this repository into your system by using
 ```
-git clone link.xyz
+git clone https://github.com/arv1nd-s/Spam-Mail-Prediction.git
 ```
-and by opening project.ipynb file
+and then opening SpamMailPrediction.ipynb file
